@@ -196,7 +196,7 @@ struct nvram_pair router_defaults[] = {
 	{ "wl_APSDCapable", "0" },
 	{ "wl_HT_OpMode", "0" },
 #if BOARD_HAS_5G_11AC
-	{ "wl_HT_BW", "2" },
+	{ "wl_HT_BW", "3" },
 #else
 	{ "wl_HT_BW", "1" },
 #endif
