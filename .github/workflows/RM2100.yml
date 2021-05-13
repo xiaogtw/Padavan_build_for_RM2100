@@ -35,7 +35,7 @@ jobs:
     - name: Clone source code
       run: |
         sudo git clone https://github.com/chongshengB/rt-n56u.git /opt/rt-n56u
-        sudo git clone https://github.com/blioild/Padavan_build_for_RM2100.git /Padavan_build_for_RM2100
+        sudo git clone https://github.com/xiaogtw/Padavan_build_for_RM2100.git /Padavan_build_for_RM2100
         sudo cp -r -f /Padavan_build_for_RM2100/RM2100/rt-n56u/* /opt/rt-n56u/
         cd /opt/rt-n56u/toolchain-mipsel
         sh dl_toolchain.sh
